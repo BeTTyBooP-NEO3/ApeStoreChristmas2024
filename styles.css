@@ -4,11 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden; /* Prevents scrolling */
-    background-color: #001f3f; /* Dark blue background, as a fallback */
-    background-image: url('ape2024back.jpg'); /* Link to your background image */
-    background-size: cover; /* Ensures the image covers the entire screen */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents repeating */
+    background: url('ape2024back.jpg') center center/cover no-repeat; /* Ensure the background image covers the screen */
     color: white; /* White text */
     font-family: Arial, sans-serif; /* Default font */
     display: flex;
@@ -20,6 +16,9 @@ body, html {
 .content {
     width: 80%; /* Ensures content is centered and has space around */
     max-width: 1000px; /* Ensures content fits well on large screens */
+    background: rgba(0, 31, 63, 0.8); /* Dark blue background with transparency to make text readable */
+    padding: 20px; /* Adds space around the content */
+    border-radius: 10px; /* Slightly rounded corners for the content box */
 }
 
 .logo {
