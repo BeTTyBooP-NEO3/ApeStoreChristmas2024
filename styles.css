@@ -45,8 +45,8 @@ strong {
     color: white;
 }
 
-a {
-    color: white; /* White text for links */
+a:link, a:visited, a:hover, a:active {
+    color: white !important; /* Ensure all states of links are white */
     text-decoration: none; /* No underline for links */
 }
 
