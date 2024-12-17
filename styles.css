@@ -18,6 +18,7 @@ body, html {
     width: 80%; /* Ensures content is centered and has space around */
     max-width: 1000px; /* Ensures content fits well on large screens */
     padding: 20px; /* Adds space around the content */
+    background: none; /* Removes any background color */
 }
 
 .logo {
@@ -41,4 +42,13 @@ p {
 strong {
     font-weight: bold;
     color: white;
+}
+
+a {
+    color: white; /* White text for links */
+    text-decoration: none; /* No underline for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
