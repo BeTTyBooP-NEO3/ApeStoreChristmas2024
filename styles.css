@@ -10,26 +10,30 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.content {
     text-align: center;
 }
 
+.content {
+    width: 80%; /* Ensures content is centered and has space around */
+    max-width: 1000px; /* Ensures content fits well on large screens */
+}
+
 .logo {
-    width: 150px; /* Adjust the width of the logo as needed */
-    height: auto;
+    width: 200px; /* Adjusted width of the logo */
+    height: auto; /* Maintains aspect ratio */
     margin-bottom: 20px; /* Adds some space below the logo */
 }
 
 h1 {
-    font-size: 3em; /* Larger font size for the title */
+    font-size: 4em; /* Larger font size for the title */
     font-weight: bold; /* Bold font */
+    margin: 20px 0; /* Adds space around the title */
 }
 
 p {
     font-size: 2em; /* Larger font size for paragraphs */
     font-weight: bold; /* Bold font */
+    margin: 10px 0; /* Adds space around the paragraphs */
 }
 
 strong {
