@@ -25,6 +25,7 @@ body, html {
     width: 200px; /* Adjusted width of the logo */
     height: auto; /* Maintains aspect ratio */
     margin-bottom: 20px; /* Adds some space below the logo */
+    margin-top: -100px; /* Moves the logo up by half its height */
 }
 
 h1 {
