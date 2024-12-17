@@ -1,0 +1,16 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('ape2024back.jpg'); /* Odkaz na tvůj obrázek */
+    background-size: cover; /* Zajistí, že obrázek pokryje celou obrazovku */
+    background-position: center; /* Vycentruje obrázek */
+    background-repeat: no-repeat; /* Zamezí opakování obrázku */
+}
